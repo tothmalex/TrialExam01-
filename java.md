@@ -33,4 +33,4 @@ The application is accepted if:
 
 ###  What is the difference between id and class in CSS? [2p]
 #### Your answer: 
-The main difference is that the IDs are unique since each element can have only one in that page. Such as <div id="footer"> which represents the footer which part does not have special tag in CSS. At classes, when we use classes as CSS tags we make reference to multiple elements in the HTML code. For example, <div class="widget"></div> represents all classes named widgets in the code. 
+The main difference is that the IDs are unique since each element can have only one in that page. Such as "<div id="footer">" which represents the footer which part does not have special tag in CSS. At classes, when we use classes as CSS tags we make reference to multiple elements in the HTML code. For example, "<div class="widget"></div>" represents all classes named widgets in the code. 
