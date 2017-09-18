@@ -1,17 +1,21 @@
-/* import java.util.Arrays;
-import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
 
-public class UrlFromHandles{
+public class UrlsFromHandles{
     public static void main(String[] args){
 
-        List<String> handles = Arrays.asList("ghhandle1","ghhandle2");
-        List<String> urls = Arrays.asList("https://github.com/greenfox-academy/ghhandle1","https://github.com/greenfox-academy/ghhandle2");
-
-        System.out.println(urlsFromHandles(Arrays.asList("ghhandle1", "ghhandle2"));
+        ArrayList<String> handles = new ArrayList<>();
+        handles.addAll(Arrays.asList("tothmalex", "kaghee"));
+        System.out.println(urlsFromHandles(handles));
     }
-    public static String urlsFromHandles (String input) {
-        if (input )
 
+    public static ArrayList<String> urlsFromHandles(ArrayList<String> list) {
+        String url = "https://github.com/greenfox-academy/";
+        ArrayList<String> links = new ArrayList<>();
+        for (int i = 0; i < list.size(); i++) {
+            links.add(url.concat(list.get(i)));
+        }
+        return links;
     }
 }
 
@@ -22,4 +26,3 @@ public class UrlFromHandles{
 // input: ["ghhandle1", "ghhandle2"]
 // output: ["https://github.com/greenfox-academy/ghhandle1", "https://github.com/greenfox-academy/ghhandle2"]
 
-*/
